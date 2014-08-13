@@ -1,0 +1,65 @@
+html {
+    padding: 0; margin: 0;
+    height: 100%; width: 100%;
+    background: url(./img/happysky.jpg) center center no-repeat;
+    background-size: cover;
+    
+    font-family: "NanumGotic", "Malgun Gothic", 'sans';
+}
+
+div#container {
+    position: relative;
+    
+    margin: 20px auto;
+    padding: 16px;
+    max-width: 708px;
+    min-height: 200px;
+    
+    background: white;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.85) 40%,rgba(255,255,255,1) 100%);
+    
+    
+    border: solid 1px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    
+    /* padding for footer */
+    padding-bottom: 45px;
+}
+
+div#container > div#footer {
+    position: absolute;
+    
+    width: 100%; height: 45px;
+    bottom: 0;
+    
+    line-height: 45px;
+    text-align: center;
+}
+
+div#container > h2 {
+    margin: 0; padding: 0;
+    text-align: center;
+}
+
+div#container span {
+    font-size: 10pt;
+}
+
+form.config h3 {
+    text-align: center;
+}
+
+form.config label {
+    display: block;
+    padding: 4px 0 4px 0;
+}
+
+form.config textarea {
+    width: 100%;
+}
+
+form.config div.buttons {
+    padding: 8px;
+    text-align: center;
+}

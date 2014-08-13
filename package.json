@@ -1,0 +1,11 @@
+{
+    "name": "dcignature",
+    "title": "DCignature",
+    "id": "jid1-nhv6qCAKBhPuhA",
+    "description": "디시인사이드에 글을 쓸때 자짤 등의 개인 서명을 집어넣습니다.",
+    "author": "치즈군★ (doping.cheese@gmail.com)",
+    "license": "MPL 2.0",
+    "version": "0.1",
+    
+    "dependencies": ["menuitems"]
+}
