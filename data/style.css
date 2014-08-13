@@ -46,20 +46,20 @@ div#container span {
     font-size: 10pt;
 }
 
-form.config h3 {
+form#config h3 {
     text-align: center;
 }
 
-form.config label {
+form#config label {
     display: block;
     padding: 4px 0 4px 0;
 }
 
-form.config textarea {
+form#config textarea {
     width: 100%;
 }
 
-form.config div.buttons {
+form#config div.buttons {
     padding: 8px;
     text-align: center;
 }
